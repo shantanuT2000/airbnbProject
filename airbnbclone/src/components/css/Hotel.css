@@ -1,0 +1,90 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.container1{
+    margin: 2px 0px;
+    height: 35rem;
+    width: 100%;
+    /* background-image:url(../images/room.jpeg); */
+    background-image: url(../../../public/images/room.jpeg);
+    background-size: cover;
+   
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+  
+    background-repeat: no-repeat;
+    padding-left: 10em;
+}
+h1{
+    color: rgb(250, 244, 244);
+}
+.container-heading{
+    text-align: center;
+    margin: 2em;
+}
+.container2{
+    text-align: center;
+    margin: 2px 0px;
+    padding: 5rem;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    border: 1px solid rgb(217, 215, 215);
+    padding-left: 2rem;
+}
+
+.cards {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    margin: 0.5rem 1em;
+    }
+
+
+.container3-heading{
+    text-align: center;
+    margin-top: 10px;
+}
+.container3{
+    text-align: center;
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    list-style: none;
+}
+
+.container3 img{
+   height: 5em;
+   width: 5em;
+}
+
+ul{
+    list-style: none;
+}
+.container4{
+    display: flex;
+    padding: 50px 50px;
+    background-color: aliceblue;
+     height: 17rem;
+}
+.container4 img{
+    height: 4em;}
+.container4 .img1{
+    height: 9em;
+}
+
+.part{
+   
+     flex: 1;
+}
+.part .img2{
+    height: 10rem;
+    float: right;
+}
+.part:first-child{
+    margin-right: 20px;
+}
