@@ -34,7 +34,7 @@ const HotelManagement = () => {
   return (
     
     <>
-      <NavBar />
+      
       <div className="container1">
         <h1>List your hotels, apartments, villas</h1>
         <h1>Homestays and more!</h1>
@@ -53,7 +53,7 @@ const HotelManagement = () => {
       <Cards data={data}/>
       <GrowSection/>
       <hr />
-      <Footer/>
+      
     </>
   );
 };
