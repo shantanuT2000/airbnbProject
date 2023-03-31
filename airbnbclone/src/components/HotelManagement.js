@@ -1,10 +1,9 @@
 import React,{useState} from "react";
 import Buttons from "./Buttons";
 import "./css/Hotel.css";
-import NavBar from "./NavBar";
 import Cards from "./Cards";
 import GrowSection from "./GrowSection";
-import Footer from "./Footer";
+
 
 const HotelManagement = () => {
   
