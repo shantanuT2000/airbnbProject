@@ -9,6 +9,7 @@ import Footer from './Footer';
 const HotelManagementApp = () => {
     const navItems=[{id:1,path:"/signup",item:"Register"},{id:2,path:"/login",item:"Login"}];
   const[Navi,setNav] = useState(navItems);
+  console.log(Navi);
   return (<>
     <NavBar Navi={Navi}/>
     <Routes>
