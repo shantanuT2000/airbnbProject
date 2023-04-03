@@ -9,7 +9,7 @@ const General = () => {
   return (
     <>
     
-    <div className="container1">
+    <div className="general_container1">
         <Buttons/>
     </div>
     <br />
