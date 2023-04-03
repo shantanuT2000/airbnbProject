@@ -1,10 +1,7 @@
 import React,{useState} from 'react'
-import HotelManagement from './components/HotelManagement';
+
 import {Routes,Route} from 'react-router-dom';
-import Signup from "./components/Signup";
-import Login from "./components/Login";
-import NavBar from './components/NavBar';
-import Footer from './components/Footer';
+
 
 import Header from './components/user-homepage-components/Header';
 import General from './components/general-homepage-component/General'
