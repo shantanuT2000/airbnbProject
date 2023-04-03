@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom'
 
 
 
-function NavBar() {
+function NavBar({Navi}) {
   return (
     <>
    <Navbar sticky="top" collapseOnSelect expand="lg" bg="light"  variant="light">
@@ -25,13 +25,19 @@ function NavBar() {
           </Nav>
           <Nav>
             
-            <div className="options">
-
-            <Link to='/signup'style={{textDecoration:"none",color:"black"}}>Register</Link>
+          <div className="options">
+          {
+            Navi.map((curElem)=>{
+              return(
+                <>
+                 <Link to={curElem.path}style={{textDecoration:"none",color:"black"}}>{curElem.item}</Link>
            
-            <span>  </span>
-            <Link to='/login'style={{textDecoration:"none",color:"black"}}>Login</Link>
-            </div>
+                 <span>  </span>
+                </>
+              )
+            })
+          }
+            </div> 
            
           </Nav>
           
