@@ -3,10 +3,13 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import {Link} from 'react-router-dom';
+import UserHomePage from './UserHomePage';
+
 
 function Header() {
   return (
-    // <Navbar collapseOnSelect expand="lg" bg="blue" color='red' variant="blue">
+    <>
+    
     <Navbar sticky="top" collapseOnSelect expand="lg" bg="light"  variant="light">
       <Container>
       <img
@@ -60,6 +63,19 @@ function Header() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+    {/* <Cards2/>       */}
+    <UserHomePage/>
+
+
+
+
+
+
+
+
+
+    
+    </>
   );
 }
 
