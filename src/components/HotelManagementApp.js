@@ -12,14 +12,13 @@ const HotelManagementApp = () => {
   return (<>
     <NavBar Navi={Navi}/>
     <Routes>
-
+            <Route exact path='/'element={<HotelManagement/>}></Route>
             <Route path='/signup' element={<Signup/>}></Route>
             <Route path='/login' element={<Login/>}></Route>
             
           
 
     </Routes>
-    <HotelManagement/>
     
     <hr />
    <Footer/>
