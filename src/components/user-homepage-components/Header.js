@@ -2,9 +2,9 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import {Link} from 'react-router-dom';
 
-
-function NavBar() {
+function Header() {
   return (
     // <Navbar collapseOnSelect expand="lg" bg="blue" color='red' variant="blue">
     <Navbar sticky="top" collapseOnSelect expand="lg" bg="light"  variant="light">
@@ -17,7 +17,9 @@ function NavBar() {
               alt="React Bootstrap logo"
             />
         
-        <Navbar.Brand href="#home">airbnb</Navbar.Brand>
+        {/* <Navbar.Brand href="#home">airbnb</Navbar.Brand> */}
+        <Link to="/hotelpage" style={{textDecoration:"none"}}>airbnb</Link>
+
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
@@ -61,4 +63,4 @@ function NavBar() {
   );
 }
 
-export default NavBar;
+export default Header;

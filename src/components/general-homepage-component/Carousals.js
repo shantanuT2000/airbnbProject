@@ -1,7 +1,5 @@
 import Carousel from 'react-bootstrap/Carousel';
-import c1 from './images/c1.jpg'
-import c2 from './images/c2.jpg'
-import c3 from './images/c3.jpg'
+
 
 
 function Carousals() {
@@ -10,7 +8,7 @@ function Carousals() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src= { c1 }
+          src= '/images/c1.jpg'
           alt="First slide"
         />
         <Carousel.Caption>
@@ -21,7 +19,7 @@ function Carousals() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src= { c2 }
+          src= '/images/c2.jpg'
           alt="Second slide"
         />
 
@@ -33,7 +31,7 @@ function Carousals() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={ c3 }
+          src='/images/c1.jpg'
           alt="Third slide"
         />
 
