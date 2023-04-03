@@ -3,7 +3,8 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import {Link} from 'react-router-dom';
-import Footer2 from './Footer2'
+import UserHomePage from './UserHomePage';
+
 
 function Header() {
   return (
@@ -62,8 +63,18 @@ function Header() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+    {/* <Cards2/>       */}
+    <UserHomePage/>
 
-    <Footer2/>
+
+
+
+
+
+
+
+
+    
     </>
   );
 }
