@@ -8,12 +8,15 @@ import Footer from './components/Footer';
 
 
 
+
 function App() {
   const navItems=[{id:1,path:"/signup",item:"Register"},{id:2,path:"/login",item:"Login"}];
   const[Navi,setNav] = useState(navItems);
   return (
     <div className="App">
+
     <NavBar Navi={Navi} />
+
     <Routes>
             <Route exact path='/' element={<HotelManagement/>}></Route>
             <Route path='/signup' element={<Signup/>}></Route>
@@ -22,6 +25,7 @@ function App() {
     </Routes>
     <hr />
    <Footer/>
+  
     
      
     </div>
