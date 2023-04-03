@@ -3,7 +3,7 @@ import Buttons from '../Buttons'
 import '../css/Hotel.css'
 import NavBar from '../NavBar'
 import Carousals from './Carousals'
-
+import Footer1 from './Footer1'
 
 const General = ()  => {
   const navItem = [{id:1,item:""}]
@@ -18,7 +18,7 @@ const[data,setdata]=useState(navItem);
     </div>
     <br />
     <Carousals/>
-    
+    <Footer1/>
     </>
   )
 }
