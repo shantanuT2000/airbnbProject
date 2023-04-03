@@ -11,7 +11,7 @@ const[data,setdata]=useState(navItem);
   return (
     <>
     <NavBar Navi={data}/>
-    <div className="container1">
+    
     
     <div className="general_container1">
         <Buttons/>
