@@ -8,7 +8,6 @@ import Footer from './components/Footer';
 
 
 
-
 function App() {
   const navItems=[{id:1,path:"/signup",item:"Register"},{id:2,path:"/login",item:"Login"}];
   const[Navi,setNav] = useState(navItems);
