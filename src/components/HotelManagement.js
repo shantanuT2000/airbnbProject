@@ -6,7 +6,7 @@ import GrowSection from "./GrowSection";
 
 
 const HotelManagement = () => {
-  
+  // const arr1 = [{id:1,btnName:"Book"},{id:2,btnName:"Register"}]
   const arr2 = [{
     id:1,
     img:"images/hotel2.jpeg",
