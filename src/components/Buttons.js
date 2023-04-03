@@ -9,7 +9,7 @@ const Buttons = () => {
     <Link to='/Hotelpage'style={{textDecoration:"none",color:"white"}}>List your Hotel</Link>
   </Button>
   <Button as="a" variant="primary">
-    <Link to='/userpage' style={{textDecoration:"none",color:"white"}}>List your Homestay</Link>
+    <Link to='/userpage' style={{textDecoration:"none",color:"white"}}>Book your Homestay/Hotel</Link>
   </Button>
 </Stack>
   )

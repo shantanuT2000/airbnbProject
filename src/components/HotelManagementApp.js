@@ -7,24 +7,23 @@ import NavBar from './NavBar';
 import Footer from './Footer';
 
 const HotelManagementApp = () => {
-    const navItems=[{id:1,path:"/signup",item:"Register"},{id:2,path:"/login",item:"Login"}];
+  const navItems=[{id:1,path:"/signup",item:"Register"},{id:2,path:"/login",item:"Login"}];
   const[Navi,setNav] = useState(navItems);
-  console.log(Navi);
-  return (<>
+  return (
+    <div className="">
     <NavBar Navi={Navi}/>
     <Routes>
-            <Route exact path='/'element={<HotelManagement/>}></Route>
+            <Route exact path='/' element={<HotelManagement/>}></Route>
             <Route path='/signup' element={<Signup/>}></Route>
             <Route path='/login' element={<Login/>}></Route>
-            
-          
 
     </Routes>
-    
     <hr />
    <Footer/>
-   </>
-  )
+    
+     
+    </div>
+  );
 }
 
 export default HotelManagementApp
