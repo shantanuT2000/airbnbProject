@@ -5,13 +5,14 @@ import Signup from "./components/Signup";
 import Login from "./components/Login";
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
+import Header from './components/user-homepage-components/Header';
 
 
 
 function App() {
   return (
     <div className="App">
-    <NavBar />
+    {/* <NavBar />
     <Routes>
             <Route exact path='/' element={<HotelManagement/>}></Route>
             <Route path='/signup' element={<Signup/>}></Route>
@@ -19,7 +20,8 @@ function App() {
 
     </Routes>
     <hr />
-   <Footer/>
+   <Footer/> */}
+   < Header />
     
      
     </div>
