@@ -25,19 +25,18 @@ function NavBar({Navi}) {
           </Nav>
           <Nav>
             
-          <div className="options">
-          {
+           <div className="options">
+           {
             Navi.map((curElem)=>{
               return(
                 <>
                  <Link to={curElem.path}style={{textDecoration:"none",color:"black"}}>{curElem.item}</Link>
-           
-                 <span>  </span>
+                  <span>  </span>
                 </>
               )
             })
-          }
-            </div> 
+          } 
+            </div>  
            
           </Nav>
           
