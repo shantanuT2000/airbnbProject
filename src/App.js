@@ -13,27 +13,18 @@ import HotelManagementApp from './components/HotelManagementApp';
 
 
 function App() {
-  const navItems=[{id:1,path:"/signup",item:"Register"},{id:2,path:"/login",item:"Login"}];
-  const[Navi,setNav] = useState(navItems);
-  return (
-    <div className="App">
-
-    <NavBar Navi={Navi} />
-
-    <Routes>
-            <Route exact path='/' element={<HotelManagement/>}></Route>
-            <Route path='/signup' element={<Signup/>}></Route>
-            <Route path='/login' element={<Login/>}></Route>
-
-    </Routes>
-    <hr />
-   <Footer/>
   
+  return (
     
 
+   
+  
+    
+<div className="App">
   <Routes>
     <Route exact path='/' element={<General/>}></Route>
     <Route path='/Hotelpage' element={<HotelManagementApp/>}></Route>
+    <Route path='/userpage'element={<Header/>}></Route>
   </Routes>
      
     </div>

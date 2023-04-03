@@ -1,14 +1,16 @@
-import React from 'react'
+import React,{useState} from 'react'
 import Buttons from '../Buttons'
 import '../css/Hotel.css'
 import NavBar from '../NavBar'
 import Carousals from './Carousals'
 
 
-const General = () => {
+const General = ()  => {
+  const navItem = [{id:1,item:""}]
+const[data,setdata]=useState(navItem);
   return (
     <>
-    <NavBar/>
+    <NavBar Navi={data}/>
     <div className="container1">
         <Buttons/>
     </div>

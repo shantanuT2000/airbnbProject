@@ -6,10 +6,10 @@ const Buttons = () => {
   return (
     <Stack direction="horizontal" gap={2}>
   <Button as="a" variant="primary">
-    <Link to='/Hotelpage'>List your Hotel</Link>
+    <Link to='/Hotelpage'style={{textDecoration:"none",color:"white"}}>List your Hotel</Link>
   </Button>
   <Button as="a" variant="primary">
-    <Link to='/userpage'>List your Homestay</Link>
+    <Link to='/userpage' style={{textDecoration:"none",color:"white"}}>List your Homestay</Link>
   </Button>
 </Stack>
   )
