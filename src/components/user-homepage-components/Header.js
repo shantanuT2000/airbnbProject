@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import logo from './Images/logo.png'
+
 
 function NavBar() {
   return (
@@ -10,7 +10,7 @@ function NavBar() {
     <Navbar sticky="top" collapseOnSelect expand="lg" bg="light"  variant="light">
       <Container>
       <img
-              src={ logo }
+              src="images/logo.png"
               width="80"
               height="40"
               className="d-inline-block align-top"

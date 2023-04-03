@@ -88,3 +88,19 @@ ul{
 .part:first-child{
     margin-right: 20px;
 }
+
+.general_container1{
+    margin: 2px 0px;
+    height: 35rem;
+    width: 100%;
+    background-image: url(../../../public/images/bed.jpg);
+    background-size: cover;
+   
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+  
+    background-repeat: no-repeat;
+    padding-left: 10em;
+}
