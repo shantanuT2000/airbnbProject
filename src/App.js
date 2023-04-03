@@ -11,12 +11,8 @@ import HotelManagementApp from './components/HotelManagementApp';
 function App() {
   
   return (
-    
-
-   
   
-    
-<div className="App">
+  <div className="App">
   <Routes>
     <Route exact path='/' element={<General/>}></Route>
     <Route path='/Hotelpage' element={<HotelManagementApp/>}></Route>
