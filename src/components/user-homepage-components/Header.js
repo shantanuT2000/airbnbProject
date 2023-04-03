@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import {Link} from 'react-router-dom';
 
-function NavBar() {
+function Header() {
   return (
     // <Navbar collapseOnSelect expand="lg" bg="blue" color='red' variant="blue">
     <Navbar sticky="top" collapseOnSelect expand="lg" bg="light"  variant="light">
@@ -63,4 +63,4 @@ function NavBar() {
   );
 }
 
-export default NavBar;
+export default Header;
