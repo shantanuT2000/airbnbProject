@@ -112,3 +112,15 @@ ul{
     padding-left: 30rem;
     
 }
+form{
+    background-color: antiquewhite;
+    padding: 5rem;
+    align-items: center;
+}
+form input{
+    display: block;
+    margin: 10px auto ;
+    padding: 10px;
+    
+
+}

@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React from "react";
 import Buttons from "./Buttons";
 import "./css/Hotel.css";
 import Cards from "./Cards";
@@ -6,7 +6,7 @@ import GrowSection from "./GrowSection";
 
 
 const HotelManagement = () => {
-  // const arr1 = [{id:1,btnName:"Book"},{id:2,btnName:"Register"}]
+  
   const arr2 = [{
     id:1,
     img:"images/hotel2.jpeg",
@@ -28,7 +28,7 @@ const HotelManagement = () => {
   title:"Apartments",
   desc:"An apartment is an independent unit in a residential complex.               Ranging from studios to 3 BHK units, these come with rooms, a kitchen, a living area, etc."
 }];
- const[data,setData] = useState(arr2);
+ 
 
   return (
     
@@ -49,7 +49,7 @@ const HotelManagement = () => {
       </div>
     
 
-      <Cards data={data}/>
+      <Cards data={arr2}/>
       <GrowSection/>
       <hr />
       

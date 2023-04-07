@@ -1,11 +1,6 @@
-import { useState } from "react";
-
+import React from "react";
 import Footer2 from './Footer2';
-
-// import Login from './Login';
-// import { list, list2 } from "./Images/cards-list";
 import Cards2 from './Cards2';
-// import "./css/Hotel.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -58,11 +53,11 @@ title:"Villas",
 desc:"A villa is a luxurious property, featuring many rooms and spaces               such as a lounge area, kitchen, lawn, and often, a pool.Villas can be multitier"
 }];
 
-const[data,setData] = useState(arr2);
+// const[data,setData] = useState(arr2);
   return (
     <>
     
-    <Cards2 data={data}/>
+    <Cards2 data={arr2}/>
     <Footer2/>
     
 
